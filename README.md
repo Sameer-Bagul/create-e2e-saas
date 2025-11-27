@@ -5,7 +5,7 @@
 [![npm version](https://img.shields.io/npm/v/create-e2e-saas)](https://www.npmjs.com/package/create-e2e-saas)
 [![npm downloads](https://img.shields.io/npm/dt/create-e2e-saas.svg)](https://www.npmjs.com/package/create-e2e-saas)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Sameer--Bagul-blue)](https://github.com/Sameer-Bagul/create-mern-auth)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Sameer--Bagul-blue)](https://github.com/Sameer-Bagul/create-e2e-saas)
 
 ---
 
@@ -25,14 +25,14 @@ npm install -g create-e2e-saas
 create-e2e-saas my-app
 ```
 
-*(Don’t use `npm i create-mern-auth` — it’s a CLI command, not a dependency!)*
+*(Don’t try to install a project template as a dependency — use the CLI above.)*
 
 ---
 
 ## 💡 Why This Exists
 
 Tired of rebuilding authentication systems every time?
-`create-mern-auth` gives you a **ready-to-run full-stack Auth system** (React + Node + MongoDB) complete with:
+`create-e2e-saas` gives you a **ready-to-run full-stack Auth system** (React + Node + MongoDB) complete with:
 ✅ JWT Authentication
 ✅ Email + OTP Verification
 ✅ Password Reset via Email
@@ -71,7 +71,7 @@ my-app/
 1️⃣ Create a new project
 
 ```
-npx create-mern-auth my-app
+npx create-e2e-saas my-app
 ```
 
 2️⃣ Go to your project
@@ -84,14 +84,14 @@ cd my-app
 
 ```
 cd server && npm install
-cd client && npm install
+cd ../client && npm install
 ```
 
 4️⃣ Start development
 
 ```
 cd server && npm run dev
-cd client && npm start
+cd ../client && npm start
 ```
 
 Your full MERN Auth app is ready! 🚀
@@ -109,7 +109,7 @@ Want to improve it? Contributions are open!
 
 Fork the repo → add your feature → raise a PR 🙌
 
-GitHub → [Sameer-Bagul/create-mern-auth](https://github.com/Sameer-Bagul/create-mern-auth)
+GitHub → [Sameer-Bagul/create-e2e-saas](https://github.com/Sameer-Bagul/create-e2e-saas)
 
 ---
 
