@@ -1,0 +1,59 @@
+{
+  title: create-e2e-saas - One-command MERN Authentication Starter CLI,
+  shortDescription: A production-ready CLI to scaffold a full-stack MERN (MongoDB, Express, React, Node) authentication system with OTP and JWT.,
+  description: create-e2e-saas is a powerful CLI tool designed for developers who want to skip the repetitive task of building authentication systems. It scaffolds a complete, ready-to-run MERN stack application featuring JWT-based authentication, OTP email verification, and password resets. The generated project uses modern technologies like React 19, Vite, Tailwind CSS 4, and Shadcn/UI for the frontend, with a robust Node.js/Express backend. It's an ideal starting point for SaaS products, hackathons, and rapid prototyping.,
+  projectDate: 2026-02-27,
+  tags: [
+    MERN,
+    CLI,
+    Authentication,
+    SaaS,
+    Starter,
+    React 19,
+    Node.js,
+    MongoDB,
+    Express,
+    Tailwind CSS,
+    JWT,
+    OTP
+  ],
+  techStack: [
+    React 19,
+    Vite,
+    Tailwind CSS 4,
+    Shadcn/UI,
+    Lucide React,
+    React Router 7,
+    Recharts,
+    Node.js,
+    Express.js 4,
+    MongoDB,
+    Mongoose,
+    JWT Authentication,
+    Bcryptjs,
+    Nodemailer (SMTP),
+    Chalk,
+    Ora
+  ],
+  category: CLI,
+  isFeatured: true,
+  image: template/client/src/assets/header_img.png,
+  videoUrl: ,
+  githubUrl: https://github.com/Sameer-Bagul/create-e2e-saas,
+  liveUrl: https://www.npmjs.com/package/create-e2e-saas,
+  contributors: [
+    Sameer Bagul
+  ],
+  features: [
+    One-command scaffolding (npx create-e2e-saas),
+    Full-stack MERN Auth system (React + Node + MongoDB),
+    Secure JWT-based session management,
+    Email + OTP verification flow,
+    Password reset via Nodemailer/SMTP,
+    Modern UI with Tailwind CSS 4 and Shadcn/UI,
+    Responsive client-side routing with React Router 7,
+    Pre-configured development scripts for client and server,
+    Clean, modular folder structure
+  ],
+  sequence: 1
+}
